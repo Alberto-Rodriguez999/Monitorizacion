@@ -56,7 +56,7 @@ ps -eo user,pid,%cpu,comm | head -n 6
 
 ---
 
-## 🛠️Comando 8: 
+## 🛠️Comando 8: Ese comando lanza dos procesos en segundo plano que ejecutan yes enviando su salida a /dev/null
 ```bash
 for i in {1..2};do yes > /dev/null & done
 ```
