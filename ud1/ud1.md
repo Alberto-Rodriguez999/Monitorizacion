@@ -58,6 +58,12 @@ ps -eo user,pid,%cpu,comm | head -n 6
 
 [![VOLVER](https://img.shields.io/badge/VOLVER-lightgrey?style=for-the-badge)](../)
 
+## 🛠️Comando 8: 
+
+for i in {1..2};do yes > /dev/null & done (para hacer el script)
+luego sudo kill -9 PID 
+
+
 
 
 
