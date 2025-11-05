@@ -60,11 +60,15 @@ ps -eo user,pid,%cpu,comm | head -n 6
 ```bash
 for i in {1..2};do yes > /dev/null & done
 ```
+```bash
+atop
+```
 ![Captura 8](./img/captura8.png)
 
 ```bash
 sudo kill -9 PID 
 ```
+
 [![VOLVER](https://img.shields.io/badge/VOLVER-lightgrey?style=for-the-badge)](../)
 
 
