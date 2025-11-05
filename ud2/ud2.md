@@ -12,6 +12,18 @@ free -s 3
 ```
 ![Captura 1](./img/captura1.png)
 
+## 🛠️Comando 2: 
+```bash
+df -h
+```
+```bash
+df -hT
+```
+```bash
+df -h /
+```
+![Captura 2](./img/captura2.png)
+
 [![VOLVER](https://img.shields.io/badge/VOLVER-lightgrey?style=for-the-badge)](../)
 
 
