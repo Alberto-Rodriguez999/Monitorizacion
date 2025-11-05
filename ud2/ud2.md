@@ -33,6 +33,12 @@ df -h /home/*
 ```
 ![Captura 3](./img/captura3.png)
 
+## 🛠️Comando 4: 
+```bash
+iostat -x nombre_disco 5
+```
+![Captura 4](./img/captura4.png)
+
 [![VOLVER](https://img.shields.io/badge/VOLVER-lightgrey?style=for-the-badge)](../)
 
 
