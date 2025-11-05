@@ -10,7 +10,7 @@ free -h
 ```bash
 free -s 3
 ```
-
+![Captura 1](./img/captura1.png)
 
 [![VOLVER](https://img.shields.io/badge/VOLVER-lightgrey?style=for-the-badge)](../)
 
