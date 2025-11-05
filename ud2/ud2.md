@@ -24,6 +24,15 @@ df -h /
 ```
 ![Captura 2](./img/captura2.png)
 
+## 🛠️Comando 3: 
+```bash
+du -h /home
+```
+```bash
+df -h /home/*
+```
+![Captura 3](./img/captura3.png)
+
 [![VOLVER](https://img.shields.io/badge/VOLVER-lightgrey?style=for-the-badge)](../)
 
 
