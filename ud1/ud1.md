@@ -56,12 +56,18 @@ ps -eo user,pid,%cpu,comm | head -n 6
 
 ---
 
+## 🛠️Comando 8: 
+```bash
+for i in {1..2};do yes > /dev/null & done
+```
+![Captura 8](./img/captura8.png)
+
+```bash
+sudo kill -9 PID 
+```
 [![VOLVER](https://img.shields.io/badge/VOLVER-lightgrey?style=for-the-badge)](../)
 
-## 🛠️Comando 8: 
 
-for i in {1..2};do yes > /dev/null & done (para hacer el script)
-luego sudo kill -9 PID 
 
 
 
