@@ -1,4 +1,4 @@
-# COMANDOS ![Monitorizacion | Ud1](https://img.shields.io/badge/Monitorizacion-Ud1-brightgreen?style=flat&labelColor=brightgreen&color=white)
+# PROCESOS ![Monitorizacion | Ud1](https://img.shields.io/badge/Monitorizacion-Ud1-brightgreen?style=flat&labelColor=brightgreen&color=white)
 
 ## 🛠️Comando 1: Muestra procesos con formato extendido
 ```bash
