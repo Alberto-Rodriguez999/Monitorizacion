@@ -56,7 +56,7 @@ ps -eo user,pid,%cpu,comm | head -n 6
 
 ---
 
-## 🛠️Comando 8: Ese comando lanza dos procesos en segundo plano que ejecutan yes enviando su salida a /dev/null
+## 🛠️Comandos 8: Genera carga artificial en la CPU lanzando dos procesos de alto consumo en segundo plano para monitorizar inmediatamente con atop cómo reacciona el sistema bajo estrés.
 ```bash
 for i in {1..2};do yes > /dev/null & done
 ```
@@ -65,8 +65,12 @@ atop
 ```
 ![Captura 8](./img/captura8.png)
 
+---
+
+## 🛠️Comando extra: Fuerza la finalización inmediata y drástica del proceso con ese identificador (PID) usando permisos de administrador, sin permitirle guardar datos ni cerrarse correctamente.
+
 ```bash
-sudo kill -9 PID 
+sudo kill -9 [PID]
 ```
 
 [![VOLVER](https://img.shields.io/badge/VOLVER-lightgrey?style=for-the-badge)](../)
