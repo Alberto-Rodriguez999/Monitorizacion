@@ -1,6 +1,6 @@
 # Tráfico de red  ![Monitorizacion | Ud3](https://img.shields.io/badge/Monitorizacion-Ud2-brightgreen?style=flat&labelColor=brightgreen&color=white)
 
-## 🛠️Comando 1: 
+## 🛠️Comando 1: Analizador de paquetes CLI que captura tráfico en modo promiscuo, permitiendo la inspección profunda de cabeceras y payloads para auditoría de red y troubleshooting.
 ```bash
 sudo tcdump
 ```
@@ -8,7 +8,7 @@ sudo tcdump
 
 ---
 
-## 🛠️Comando 2: 
+## 🛠️Comando 2: Sniffer pasivo que monitoriza el estado de las sesiones TCP en una interfaz, desglosando el ancho de banda por conexión individual.
 ```bash
 tcptrack -i [TARJETA_DE_RED]
 ```
@@ -16,7 +16,7 @@ tcptrack -i [TARJETA_DE_RED]
 
 ---
 
-## 🛠️Comando 3: 
+## 🛠️Comando 3: Utilidad basada en la librería ncurses que genera estadísticas granulares de tráfico IP/TCP/UDP en tiempo real, incluyendo conteo de bytes y flag de paquetes.
 ```bash
 iptraf
 ```
@@ -24,7 +24,7 @@ iptraf
 
 ---
 
-## 🛠️Comando 4: 
+## 🛠️Comando 4: Monitor de ancho de banda y estimador de tasas de transferencia que visualiza la carga y saturación de las interfaces mediante gráficos ASCII y estadísticas de capa 2.
 ```bash
 bmon
 ```
